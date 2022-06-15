@@ -1,0 +1,92 @@
+body {
+  background-image: url(bubba.webp);
+  background-size: 1920px;
+  font-family: "Bebas Neue", cursive;
+}
+
+header {
+  font-size: 30px;
+  text-align: center;
+  transition: color(red);
+}
+
+main {
+  font-size: 30px;
+}
+
+.header-item {
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  background-color: black;
+  border: solid;
+  color: red;
+  cursor: pointer;
+  margin: 0 27px 0 27px;
+  padding: 2px 10px 2px 10px;
+  transition: color, 0.5s;
+  border-radius: 5px;
+}
+
+.header-item:hover {
+  color: white;
+  background-color: grey;
+}
+
+.instruction {
+  font-size: 45px;
+  height: 40px;
+  width: 170px;
+  background-color: black;
+  border-radius: 15px;
+  border: solid;
+  margin: 10px auto 10px auto;
+  padding: 0 0 15px 8px;
+  color: red;
+}
+
+.instruction-text {
+  background: rgba(0, 0, 0, 0.8);
+  margin: 10px 27px 0 27px;
+  border-radius: 15px;
+}
+
+.instruction-item {
+  color: white;
+  margin: 10px 0 0 5px;
+}
+
+.character {
+  margin-top: 20px;
+}
+
+.character-profile {
+  border-radius: 10px;
+  width: 200px;
+  float: left;
+}
+
+.character-profile-text {
+  color: white;
+  float: left;
+}
+
+.character-profile-power {
+  margin: 5px 0 5px 0;
+  color: red;
+  float: left;
+  background-color: black;
+  border-radius: 15px;
+  border: solid;
+  padding: 0 4px 0 4px;
+  text-align: center;
+}
+
+.character-profile-description {
+  margin: 0 0 1px 20px;
+  color: white;
+}
+
+.character-profile-description-item {
+  height: auto;
+  margin: 1px 0 1px 0;
+}
